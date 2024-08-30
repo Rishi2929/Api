@@ -1,3 +1,29 @@
+.sort-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.sort-btn-container button {
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.sort-btn-container button:hover {
+  background-color: #e55b00;
+  transform: translateY(-2px);
+}
+
+.sort-btn-container button:active {
+  background-color: black;
+  transform: translateY(0);
+}
 .parent-div {
   display: flex;
   flex-wrap: wrap;
