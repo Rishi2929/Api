@@ -1,0 +1,45 @@
+.parent-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.item-tiles {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-tiles:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.item-tiles h3 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.item-tiles p {
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: #666;
+}
+
+.item-tiles p:nth-child(2) {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.item-tiles p:nth-child(3) {
+  font-size: 0.9em;
+  color: #888;
+}
