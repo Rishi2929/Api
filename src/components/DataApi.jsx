@@ -26,6 +26,7 @@ function DataApi() {
                 {
                     data.map((item, index) => (
                         <div key={index} className='item-tiles'>
+                            <img src={item.image} alt={item.name} className='product-image' />
                             <h3>{item.name}</h3>
                             <p>Price: {item.price}</p>
                             <p>Rating: {item.rating?.average}</p>
